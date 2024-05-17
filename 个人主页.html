@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        <!--
+        .STYLE1 {
+            font-size: x-large
+        }
+
+        .STYLE2 {
+            font-size: large;
+        }
+        -->
+    </style>
+</head>
+
+
+
+<style>
+    body {
+        background-image: url(./photo1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
+
+<style>
+
+
+    #templatemo_topsection_title {
+        font-family: 微软雅黑;
+        font-style: normal;
+        font-size: 70px; /* 设置字体大小 */
+        color: black; /* 设置字体颜色 */
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
+        margin-bottom: 60px; /* 设置元素下方的外边距 */
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* 使得 body 占据整个视口高度 */
+        margin: 0; /* 移除默认的 body 边距 */
+    }
+
+    .module {
+        /* 为模块添加一些基本样式 */
+        background-color: rgb(0 0 0 / 0.00);
+        padding: 300px;
+        border-radius: 5px;
+        text-align: center; /* 水平居中模块内的文本 */
+        /* 可以设置宽度和高度 */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* 垂直居中列表项 */
+        height: 100vh; /* 使.module占据整个视口高度 */
+    }
+
+
+        .module ul {
+            /* 为列表添加样式 */
+            font-size: 70px;
+            font-style: normal;
+            text-align: center;
+        }
+
+        .module li {
+            /* 为列表项添加样式 */
+            display: block;
+            margin-right: 250px;
+            font-family: 黑体;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 500;
+            margin-bottom: 30px;
+            text-align: end;
+        }
+
+
+        .module a.current {
+            /* 为带有current类的链接添加突出显示样式 */
+            color: blue;
+            text-align: center;
+            font-weight: bold; /* 使链接字体加粗 */
+            text-decoration: underline;
+        }
+
+    a.current:hover {
+        color: red; /* 悬停时的文本颜色 */
+        background-color: wheat; /* 悬停时的背景颜色 */
+        text-decoration: none; /* 悬停时取消下划线 */
+    }
+</style>
+
+
+<body>
+
+
+
+    <div class="module">
+        <div id="templatemo_container">
+            <div id="templatemo_topsection">
+                <div id="templatemo_topsection_title"> 个人信息 </div>
+                <div class="templatemo_topmenu">
+                    <ul>
+                        <li><a href="name.html" class="current">个人基本信息</a></li>
+                        <li><a href="lijie.html" class="current">对软件工程专业的理解</a></li>
+                        <li><a href="course.html" class="current">最喜爱的课程</a></li>
+                        <li><a href="act.html" class="current">参加过的实践活动</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+</body>
+
+
+</html>
